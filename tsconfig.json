@@ -1,0 +1,13 @@
+{
+	"extends": ["@sapphire/ts-config", "@sapphire/ts-config/extra-strict", "@sapphire/ts-config/decorators"],
+	"compilerOptions": {
+		"rootDir": "src",
+		// "module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"target": "ESNext",
+		"outDir": "dist",
+		"skipLibCheck": true,
+		"tsBuildInfoFile": "dist/.tsbuildinfo"
+	},
+	"include": ["src"]
+}
